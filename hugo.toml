@@ -1,0 +1,13 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = "hugo-profile"
+
+[params]
+  title = "CHIHLING BLOG"
+  description = "Text about my cool site"
+
+[[menu.main]]
+  name = "Blog posts"
+  weight = 1
+  url  = "posts/"
